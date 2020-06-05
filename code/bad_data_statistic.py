@@ -62,8 +62,8 @@ arxiv_infile_train = "D:\PythonCode\long-summarization-master\data\\arxiv-releas
 pubmed_infile_train = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\train.txt"
 arxiv_infile_val = "D:\PythonCode\long-summarization-master\data\\arxiv-release\\arxiv-release\\val.txt"
 pubmed_infile_val = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\val.txt"
-arxiv_infile_test = "D:\PythonCode\long-summarization-master\data\\arxiv-release\\arxiv-release\\test.txt"
-pubmed_infile_test = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\test.txt"
+arxiv_infile_test = "D:\PythonCode\long-summarization-master\data\\arxiv-release\\arxiv-release\\all_test.txt"
+pubmed_infile_test = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\all_test.txt"
 
 arxiv_train_bad_items = read_resource_and_judge(arxiv_infile_train)
 write_bad_data(arxiv_train_bad_items, "arxiv_train_bad_items.txt")

@@ -59,8 +59,8 @@ else:
     print "NO"
 
 arxiv_test_bdp = "D:\PythonCode\long-summarization-master\scripts_ljl\data_clear\\arxiv_test_bad_items.txt"
-arxiv_test_inf = "D:\PythonCode\long-summarization-master\data\\arxiv-release\\arxiv-release\\test.txt"
-arxiv_test_outf = "D:\PythonCode\long-summarization-master\data_cleaned\\arxiv_release\\arxiv_release\\test.txt"
+arxiv_test_inf = "D:\PythonCode\long-summarization-master\data\\arxiv-release\\arxiv-release\\all_test.txt"
+arxiv_test_outf = "D:\PythonCode\long-summarization-master\data_cleaned\\arxiv_release\\arxiv_release\\all_test.txt"
 all_data_num, bad_data_num = cleaned_data_write(read_bad_data(arxiv_test_bdp), arxiv_test_inf, arxiv_test_outf)
 all_cleaned_data_num = test_new_cleaned_data(read_bad_data(arxiv_test_bdp), arxiv_test_outf)
 print all_data_num, bad_data_num, all_cleaned_data_num
@@ -92,8 +92,8 @@ else:
     print "NO"
 
 pubmed_test_bdp = "D:\PythonCode\long-summarization-master\scripts_ljl\data_clear\pubmed_test_bad_items.txt"
-pubmed_test_inf = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\test.txt"
-pubmed_test_outf = "D:\PythonCode\long-summarization-master\data_cleaned\pubmed_release\pubmed_release\\test.txt"
+pubmed_test_inf = "D:\PythonCode\long-summarization-master\data\pubmed-release\pubmed-release\\all_test.txt"
+pubmed_test_outf = "D:\PythonCode\long-summarization-master\data_cleaned\pubmed_release\pubmed_release\\all_test.txt"
 all_data_num, bad_data_num = cleaned_data_write(read_bad_data(pubmed_test_bdp), pubmed_test_inf, pubmed_test_outf)
 all_cleaned_data_num = test_new_cleaned_data(read_bad_data(pubmed_test_bdp), pubmed_test_outf)
 print all_data_num, bad_data_num, all_cleaned_data_num

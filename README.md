@@ -9,10 +9,10 @@ clean up the dataset arXiv/PubMed on five sides
 # which is inconsistent with the fact
 # 4> one of the sections' content is none,
 # 5> section num less than 4 and tokens num less than 2000;
-								train					val					test
-arXiv(all/clean/left)	203037/25070/171967			6436/449/5987		6440/455/5985
+train -*- val -*- test
+arXiv(all/clean/left)	203037/25070/171967	  -*-	6436/449/5987	-*- 	6440/455/5985
 
-PubMed(all/clean/left)	119924/46649/72275			6633/3280/3353		6658/2472/4186
+PubMed(all/clean/left)	119924/46649/72275	 -*-  	6633/2532/4101	-*- 	6658/2472/4186
 
 "all" represents the total num of data of this work: https://github.com/armancohan/long-summarization
 "clean" represents the total num of data being cleaned
